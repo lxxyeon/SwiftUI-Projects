@@ -47,7 +47,18 @@ struct ContentView: View {
                  }
                  .accentColor(.green)
              }
-            
+            HStack(spacing: 20){
+                        Button(action: {print("Button1")}){
+                            Image("swift_logo")
+                                .resizable()
+                                .frame(width: 120, height: 120)
+                        }
+                        Button(action:{print("Button2")}){
+                            Image(systemName: "play.circle")
+                                .imageScale(.large)
+                                .font(.largeTitle)
+                        }
+            }.padding()
             if showDetails {
                 Text("You should see me in a crown")
                     .font(.largeTitle)
