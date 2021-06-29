@@ -18,10 +18,41 @@ struct ContentView: View {
     @State var name: String = "Hello"
     @State var favoriteColor: Color = .red
     @State var mood: Mood = Mood.happy
+    @State var showDetails = false
     var body: some View {
         VStack {
             StatusControl(name: $name, favoriteColor: $favoriteColor, mood: $mood)
             StatusIcon(name: name, favoriteColor: favoriteColor, mood: mood)
+            HStack(spacing: 20){
+                 Button(action: {
+                    //action
+                    self.showDetails.toggle()
+                }) {
+                    //display
+                    Text("Show details")
+                }
+                 Button("Button"){
+                     print("Button1")
+                 }
+                 Button(action:{print("Button2")}){
+                     Text("Button")
+                         .padding()
+                         .background(RoundedRectangle(cornerRadius: 10).strokeBorder())
+                 }
+                 Button(action: {print("Button3")}) {
+                     Circle()
+                         .stroke(lineWidth: 2)
+                         .frame(width: 80, height: 80)
+                         .overlay(Text("Button"))
+                 }
+                 .accentColor(.green)
+             }
+            
+            if showDetails {
+                Text("You should see me in a crown")
+                    .font(.largeTitle)
+                    .lineLimit(nil)
+            }
         }
     }
 }
