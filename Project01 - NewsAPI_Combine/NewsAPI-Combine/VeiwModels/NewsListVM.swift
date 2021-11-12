@@ -7,7 +7,11 @@
 
 import Foundation
 
+//ViewModel
+//: Model을 View로 전달해줌
 class NewsListVM: ObservableObject {
+    //ViewModel을 가져온다.
+    //@Publiched 키워드 : 변경을 감지할 변수
     @Published var news = [NewsViewModel]()
     @Published var imageData = [String : Data]()
     

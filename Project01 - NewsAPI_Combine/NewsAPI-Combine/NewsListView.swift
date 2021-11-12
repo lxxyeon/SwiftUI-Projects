@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewsListView: View {
+    
     let newsCollection: [NewsViewModel]
     let imageData: [String: Data]
     

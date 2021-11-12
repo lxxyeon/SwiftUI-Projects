@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewsHome: View {
     
+    // 감시대상 클래스
     @ObservedObject private var newsListVM = NewsListVM()
     
     init(){

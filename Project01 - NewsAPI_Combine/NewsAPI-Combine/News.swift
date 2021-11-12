@@ -7,8 +7,9 @@
 
 import Foundation
 
-//api key들
+// Models
 struct News: Decodable {
+    //api key들
     let author: String?
     let title: String?
     let description: String?

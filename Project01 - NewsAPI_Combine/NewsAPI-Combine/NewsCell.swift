@@ -12,6 +12,7 @@ struct NewsCell: View {
     let news: NewsViewModel
     let image: Image
     
+    
     @State private var isPresented: Bool = false
     
     var body: some View {

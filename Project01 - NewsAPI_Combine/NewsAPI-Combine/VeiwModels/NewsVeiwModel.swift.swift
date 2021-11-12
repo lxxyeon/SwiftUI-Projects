@@ -7,6 +7,8 @@
 
 import Foundation
 
+//ViewModel
+//: Model을 View로 전달해줌
 struct NewsViewModel {
     let news: News
     
