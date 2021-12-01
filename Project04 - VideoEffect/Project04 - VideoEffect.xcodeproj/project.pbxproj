@@ -18,6 +18,7 @@
 		68EC56832757914C00D493A5 /* CoreImageVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */; };
 		68EC56852757918A00D493A5 /* CoreImageVideoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56842757918A00D493A5 /* CoreImageVideoFilter.swift */; };
 		68EC5688275791D500D493A5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC5687275791D500D493A5 /* Extension.swift */; };
+		68EC568A2757920D00D493A5 /* MetalVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56892757920D00D493A5 /* MetalVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoProcessor.swift; sourceTree = "<group>"; };
 		68EC56842757918A00D493A5 /* CoreImageVideoFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoFilter.swift; sourceTree = "<group>"; };
 		68EC5687275791D500D493A5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		68EC56892757920D00D493A5 /* MetalVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		68EC5686275791AC00D493A5 /* MetalVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				68EC56892757920D00D493A5 /* MetalVideoPlayer.swift */,
 			);
 			path = MetalVideoPlayer;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EC568A2757920D00D493A5 /* MetalVideoPlayer.swift in Sources */,
 				68EC5688275791D500D493A5 /* Extension.swift in Sources */,
 				68EC560D2756721A00D493A5 /* ActivityView.swift in Sources */,
 				68EC55F92756708800D493A5 /* MainView.swift in Sources */,
