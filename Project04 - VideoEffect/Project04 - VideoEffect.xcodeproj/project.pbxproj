@@ -17,6 +17,7 @@
 		68EC560D2756721A00D493A5 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC560C2756721A00D493A5 /* ActivityView.swift */; };
 		68EC56832757914C00D493A5 /* CoreImageVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */; };
 		68EC56852757918A00D493A5 /* CoreImageVideoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56842757918A00D493A5 /* CoreImageVideoFilter.swift */; };
+		68EC5688275791D500D493A5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC5687275791D500D493A5 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		68EC560C2756721A00D493A5 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoProcessor.swift; sourceTree = "<group>"; };
 		68EC56842757918A00D493A5 /* CoreImageVideoFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoFilter.swift; sourceTree = "<group>"; };
+		68EC5687275791D500D493A5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,10 @@
 				68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */,
 				68EC56072756715C00D493A5 /* CoreImageVideoPlayer */,
 				68EC5604275670CE00D493A5 /* SimpleVideoPlayer */,
-				68EC55FA2756708900D493A5 /* Assets.xcassets */,
+				68EC5686275791AC00D493A5 /* MetalVideoPlayer */,
 				68EC55FC2756708900D493A5 /* Preview Content */,
+				68EC55FA2756708900D493A5 /* Assets.xcassets */,
+				68EC5687275791D500D493A5 /* Extension.swift */,
 			);
 			path = "Project04 - VideoEffect";
 			sourceTree = "<group>";
@@ -99,6 +103,13 @@
 				68EC56842757918A00D493A5 /* CoreImageVideoFilter.swift */,
 			);
 			path = CoreImageVideoPlayer;
+			sourceTree = "<group>";
+		};
+		68EC5686275791AC00D493A5 /* MetalVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MetalVideoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EC5688275791D500D493A5 /* Extension.swift in Sources */,
 				68EC560D2756721A00D493A5 /* ActivityView.swift in Sources */,
 				68EC55F92756708800D493A5 /* MainView.swift in Sources */,
 				68EC56092756716A00D493A5 /* CoreImageVideoPlayer.swift in Sources */,
