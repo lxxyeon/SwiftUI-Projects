@@ -15,6 +15,7 @@
 		68EC56092756716A00D493A5 /* CoreImageVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56082756716A00D493A5 /* CoreImageVideoPlayer.swift */; };
 		68EC560B275671D700D493A5 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC560A275671D700D493A5 /* PhotoPicker.swift */; };
 		68EC560D2756721A00D493A5 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC560C2756721A00D493A5 /* ActivityView.swift */; };
+		68EC56832757914C00D493A5 /* CoreImageVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		68EC56082756716A00D493A5 /* CoreImageVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoPlayer.swift; sourceTree = "<group>"; };
 		68EC560A275671D700D493A5 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		68EC560C2756721A00D493A5 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVideoProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				68EC56082756716A00D493A5 /* CoreImageVideoPlayer.swift */,
+				68EC56822757914C00D493A5 /* CoreImageVideoProcessor.swift */,
 			);
 			path = CoreImageVideoPlayer;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				68EC56092756716A00D493A5 /* CoreImageVideoPlayer.swift in Sources */,
 				68EC55F72756708800D493A5 /* Project04___VideoEffectApp.swift in Sources */,
 				68EC560B275671D700D493A5 /* PhotoPicker.swift in Sources */,
+				68EC56832757914C00D493A5 /* CoreImageVideoProcessor.swift in Sources */,
 				68EC56062756710100D493A5 /* SimpleVideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
