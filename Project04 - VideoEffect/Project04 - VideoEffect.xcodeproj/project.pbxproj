@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68211632275A604200216C02 /* MetalVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211631275A604200216C02 /* MetalVideoProcessor.swift */; };
 		68211634275A605C00216C02 /* MetalVideoProcessor+Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */; };
+		68211636275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */; };
 		68EC55F72756708800D493A5 /* Project04___VideoEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */; };
 		68EC55F92756708800D493A5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC55F82756708800D493A5 /* MainView.swift */; };
 		68EC55FB2756708900D493A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EC55FA2756708900D493A5 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		68211631275A604200216C02 /* MetalVideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVideoProcessor.swift; sourceTree = "<group>"; };
 		68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+Composition.swift"; sourceTree = "<group>"; };
+		68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+CIHelper..swift"; sourceTree = "<group>"; };
 		68EC55F32756708800D493A5 /* Project04 - VideoEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project04 - VideoEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project04___VideoEffectApp.swift"; sourceTree = "<group>"; };
 		68EC55F82756708800D493A5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				68EC56892757920D00D493A5 /* MetalVideoPlayer.swift */,
 				68211631275A604200216C02 /* MetalVideoProcessor.swift */,
 				68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */,
+				68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */,
 			);
 			path = MetalVideoPlayer;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				68EC568A2757920D00D493A5 /* MetalVideoPlayer.swift in Sources */,
 				68211632275A604200216C02 /* MetalVideoProcessor.swift in Sources */,
 				68EC5688275791D500D493A5 /* Extension.swift in Sources */,
+				68211636275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift in Sources */,
 				68EC560D2756721A00D493A5 /* ActivityView.swift in Sources */,
 				68EC55F92756708800D493A5 /* MainView.swift in Sources */,
 				68211634275A605C00216C02 /* MetalVideoProcessor+Composition.swift in Sources */,
