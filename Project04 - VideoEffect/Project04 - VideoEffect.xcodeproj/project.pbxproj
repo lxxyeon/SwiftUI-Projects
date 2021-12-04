@@ -11,6 +11,7 @@
 		68211634275A605C00216C02 /* MetalVideoProcessor+Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */; };
 		68211636275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */; };
 		68211638275A610E00216C02 /* MetalVideoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211637275A610E00216C02 /* MetalVideoFilter.swift */; };
+		6821163A275BAA5A00216C02 /* bunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68211639275BAA5700216C02 /* bunny.mp4 */; };
 		68EC55F72756708800D493A5 /* Project04___VideoEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */; };
 		68EC55F92756708800D493A5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC55F82756708800D493A5 /* MainView.swift */; };
 		68EC55FB2756708900D493A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EC55FA2756708900D493A5 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+Composition.swift"; sourceTree = "<group>"; };
 		68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+CIHelper..swift"; sourceTree = "<group>"; };
 		68211637275A610E00216C02 /* MetalVideoFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVideoFilter.swift; sourceTree = "<group>"; };
+		68211639275BAA5700216C02 /* bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bunny.mp4; path = "../../../../../Downloads/DEVIEW2021_VideoEffects-master/VideoEffect/bunny.mp4"; sourceTree = "<group>"; };
 		68EC55F32756708800D493A5 /* Project04 - VideoEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project04 - VideoEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project04___VideoEffectApp.swift"; sourceTree = "<group>"; };
 		68EC55F82756708800D493A5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -79,12 +81,13 @@
 				68EC560A275671D700D493A5 /* PhotoPicker.swift */,
 				68EC560C2756721A00D493A5 /* ActivityView.swift */,
 				68EC55F62756708800D493A5 /* Project04___VideoEffectApp.swift */,
-				68EC56072756715C00D493A5 /* CoreImageVideoPlayer */,
 				68EC5604275670CE00D493A5 /* SimpleVideoPlayer */,
+				68EC56072756715C00D493A5 /* CoreImageVideoPlayer */,
 				68EC5686275791AC00D493A5 /* MetalVideoPlayer */,
+				68EC5687275791D500D493A5 /* Extension.swift */,
+				68211639275BAA5700216C02 /* bunny.mp4 */,
 				68EC55FC2756708900D493A5 /* Preview Content */,
 				68EC55FA2756708900D493A5 /* Assets.xcassets */,
-				68EC5687275791D500D493A5 /* Extension.swift */,
 			);
 			path = "Project04 - VideoEffect";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				68EC55FE2756708900D493A5 /* Preview Assets.xcassets in Resources */,
 				68EC55FB2756708900D493A5 /* Assets.xcassets in Resources */,
+				6821163A275BAA5A00216C02 /* bunny.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
