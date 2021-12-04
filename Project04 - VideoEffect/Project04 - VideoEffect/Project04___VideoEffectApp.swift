@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PACKAGENAME:identifier___App: App {
+struct Project04___VideoEffectApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
