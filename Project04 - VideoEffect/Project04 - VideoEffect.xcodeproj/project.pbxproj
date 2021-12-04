@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680F9B00275BABE800E6154B /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 680F9AFF275BABE800E6154B /* Shaders.metal */; };
 		68211632275A604200216C02 /* MetalVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211631275A604200216C02 /* MetalVideoProcessor.swift */; };
 		68211634275A605C00216C02 /* MetalVideoProcessor+Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */; };
 		68211636275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift in Sources */ = {isa = PBXBuildFile; fileRef = 68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680F9AFF275BABE800E6154B /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		680F9B01275BACF300E6154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Project04 - VideoEffect/Info.plist"; sourceTree = "<group>"; };
 		68211631275A604200216C02 /* MetalVideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVideoProcessor.swift; sourceTree = "<group>"; };
 		68211633275A605C00216C02 /* MetalVideoProcessor+Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+Composition.swift"; sourceTree = "<group>"; };
 		68211635275A60D000216C02 /* MetalVideoProcessor+CIHelper..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalVideoProcessor+CIHelper..swift"; sourceTree = "<group>"; };
@@ -58,9 +61,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		680F9AFE275BABE800E6154B /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				680F9AFF275BABE800E6154B /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		68EC55EA2756708800D493A5 = {
 			isa = PBXGroup;
 			children = (
+				680F9B01275BACF300E6154B /* Info.plist */,
 				68EC55F42756708800D493A5 /* Products */,
 				68EC55F52756708800D493A5 /* Project04 - VideoEffect */,
 			);
@@ -85,6 +97,7 @@
 				68EC56072756715C00D493A5 /* CoreImageVideoPlayer */,
 				68EC5686275791AC00D493A5 /* MetalVideoPlayer */,
 				68EC5687275791D500D493A5 /* Extension.swift */,
+				680F9AFE275BABE800E6154B /* Shaders */,
 				68211639275BAA5700216C02 /* bunny.mp4 */,
 				68EC55FC2756708900D493A5 /* Preview Content */,
 				68EC55FA2756708900D493A5 /* Assets.xcassets */,
@@ -210,6 +223,7 @@
 				68EC55F92756708800D493A5 /* MainView.swift in Sources */,
 				68211634275A605C00216C02 /* MetalVideoProcessor+Composition.swift in Sources */,
 				68EC56092756716A00D493A5 /* CoreImageVideoPlayer.swift in Sources */,
+				680F9B00275BABE800E6154B /* Shaders.metal in Sources */,
 				68EC55F72756708800D493A5 /* Project04___VideoEffectApp.swift in Sources */,
 				68EC560B275671D700D493A5 /* PhotoPicker.swift in Sources */,
 				68EC56832757914C00D493A5 /* CoreImageVideoProcessor.swift in Sources */,
@@ -348,6 +362,7 @@
 				DEVELOPMENT_TEAM = W832C4SNYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project04 - VideoEffect/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -378,6 +393,7 @@
 				DEVELOPMENT_TEAM = W832C4SNYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project04 - VideoEffect/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
