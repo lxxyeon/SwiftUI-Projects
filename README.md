@@ -11,12 +11,16 @@
 
 🔥 Project04 - VideoEffect
 
-🔥 Project05 - Landmarks
-
-SwiftUI Tutorials
-https://developer.apple.com/tutorials/swiftui#swiftui-essentials
-
-Chapter 1 - SwiftUI Essentials
-Chapter 2 - Drawing and Animation
-Chapter 3 - App Design and Layout
-Chapter 4 - Framework Integration
+<details>
+<summary>🔥 Project05 - Landmarks</summary>
+<div markdown="1">
+<h3>SwiftUI Tutorials</h3>
+(SITE : https://developer.apple.com/tutorials/swiftui#swiftui-essentials)
+<br/><br/>
+  
+- Chapter 1 - SwiftUI Essentials
+- Chapter 2 - Drawing and Animation
+- Chapter 3 - App Design and Layout
+- Chapter 4 - Framework Integration
+</div>
+</details>
