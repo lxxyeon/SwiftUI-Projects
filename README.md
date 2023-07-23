@@ -8,3 +8,15 @@
 🔥 Project02 - StateAndBinding
 
 🔥 Project03 - SwiftUISample
+
+🔥 Project04 - VideoEffect
+
+🔥 Project05 - Landmarks
+
+SwiftUI Tutorials
+https://developer.apple.com/tutorials/swiftui#swiftui-essentials
+
+Chapter 1 - SwiftUI Essentials
+Chapter 2 - Drawing and Animation
+Chapter 3 - App Design and Layout
+Chapter 4 - Framework Integration
