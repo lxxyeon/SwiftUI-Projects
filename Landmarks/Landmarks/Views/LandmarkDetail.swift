@@ -22,6 +22,9 @@ struct LandmarkDetail: View {
             
             VStack(alignment: .leading) {
                 Text(landmark.name)
+                    // Text의 modifiers들 chaining 으로 속성 적용 가능
+                    // attribute inspector 혹은
+                    // cmd + shift + l 로 modifiers 검색, 추가 가능
                     .font(.title)
                 
                 HStack {

@@ -7,18 +7,10 @@
 
 import SwiftUI
 
+// View 프로토콜 따름
 struct ContentView: View {
     var body: some View {
-        NavigationView{
-            List(landmarks){ landmark in
-                NavigationLink{
-                    LandmarkDetail(landmark: landmark)
-                }label: {
-                    LandmarkRow(landmark: landmark)
-                }
-            }
-            .navigationTitle("Landmarks")
-        }
+        LandmarkList()
     }
 }
 
