@@ -12,7 +12,10 @@ struct CircleImage: View {
     var body: some View {
 //        Image("imageName")
         image
-            .clipShape(Circle())
+//            .clipShape(Circle())
+            .clipShape(Path{ path in
+                path.addLine(to: CGPoint(x: 0, y: 200))
+            })
             //viewBuilder!
             //closure 로 뷰 반환
             .overlay{
